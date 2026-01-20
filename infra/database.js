@@ -32,6 +32,6 @@ function getSslValues() {
       ca: process.env.POSTGRE_CA,
     };
   }
-  console.log("NODE ENV " + process.env.NODE_ENV);
+
   return process.env.NODE_ENV === "production" ? true : false;
 }
